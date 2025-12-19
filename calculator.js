@@ -2,7 +2,7 @@ function add(a, b) { return a + b; }
 
 function sub(a, b) { return a - b; } 
 
-function mul(a, b) {}
+function mul(a, b) { return a * b; }
 
 function parseNumber(value) {
   const n = Number(value);
@@ -12,6 +12,7 @@ function parseNumber(value) {
 function compute(op, a, b) {
   if (op === "add") return add(a, b);
   if (op === "sub") return sub(a, b);
+  if (op === "mul") return mul(a, b);
   return "Opération non gérée";
 }
 
