@@ -1,6 +1,6 @@
 function add(a, b) { return a + b; }
 
-function sub(a, b) {}
+function sub(a, b) { return a - b; } 
 
 function mul(a, b) {}
 
@@ -11,6 +11,7 @@ function parseNumber(value) {
 
 function compute(op, a, b) {
   if (op === "add") return add(a, b);
+  if (op === "sub") return sub(a, b);
   return "Opération non gérée";
 }
 
