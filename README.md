@@ -4,9 +4,9 @@
 Calculette web avec 3 opérations : addition, soustraction, multiplication.
 
 ## Fonctionnalités
-- [ ] Addition
-- [ ] Soustraction
-- [ ] Multiplication
+- [x] Addition
+- [x] Soustraction
+- [x] Multiplication
 
 ## Workflow
 Branches : main, develop, feature/addition, feature/substraction, feature/multiplication
