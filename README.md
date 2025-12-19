@@ -5,7 +5,7 @@ Calculette web avec 3 opérations : addition, soustraction, multiplication.
 
 ## Fonctionnalités
 - [ ] Addition
-- [ ] Soustraction
+- [x] Soustraction
 - [ ] Multiplication
 
 ## Workflow
