@@ -1,4 +1,4 @@
-function add(a, b) {}
+function add(a, b) { return a + b; }
 
 function sub(a, b) {}
 
@@ -10,7 +10,8 @@ function parseNumber(value) {
 }
 
 function compute(op, a, b) {
-  // TODO: router vers la bonne opération
+  if (op === "add") return add(a, b);
+  return "Opération non gérée";
 }
 
 document.getElementById("btn").addEventListener("click", () => {
@@ -25,6 +26,6 @@ document.getElementById("btn").addEventListener("click", () => {
     return;
   }
 
-  const res = compute(op, a, b);
-  resultEl.textContent = res;
+  resultEl.textContent = compute(op, a, b);
 });
+
